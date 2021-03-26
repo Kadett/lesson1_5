@@ -83,14 +83,14 @@ int main() {
     {
         double arr[SIZE];
         for (double &i : arr) i = rand() % 1000;
-        //printArray(SIZE, arr);
+        printArray(SIZE, arr);
     }
 
     /// Task 2
     {
         int arr[SIZE];
         for (int &i: arr) i = rand() % 2;
-        //invertArray(SIZE, arr);
+        invertArray(SIZE, arr);
     }
 
 
@@ -98,7 +98,7 @@ int main() {
     {
         const int SIZE_ARR_TASK_3 = 8;
         int arr[SIZE_ARR_TASK_3];
-        //initArray(SIZE_ARR_TASK_3, arr);
+        initArray(SIZE_ARR_TASK_3, arr);
     }
 
     /// Task 4
@@ -106,7 +106,7 @@ int main() {
         const int SIZE_ARR_TASK_4 = 9;
         int arr[SIZE_ARR_TASK_4] = {1, 2, 3, 4, 5, 6, 7, 8, 9,};
         int n = 2;
-        //shiftArray(SIZE_ARR_TASK_4, arr, n);
+        shiftArray(SIZE_ARR_TASK_4, arr, n);
 
     }
     /// Task 5
@@ -115,7 +115,6 @@ int main() {
         int arr[SIZE_ARR_TASK_5] = {1, 2, 3, 4, 10};
         cout << checkBalance(SIZE_ARR_TASK_5, arr);
     }
-
 
     return 0;
 }
